@@ -33,10 +33,20 @@
   padding: 0.1rem 1rem;
 }
 
+.main-menu {
+  margin-bottom: 0;
+}
 .main-menu li {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   list-style: none;
   display: inline;
+}
+.main-menu li a {
+  color: #000000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
 }
 
 .icon-sm i {
@@ -54,7 +64,55 @@
 .feature .icon {
   color: #0075ff;
   font-size: 10rem;
+  text-align: center;
 }
 .feature .description .title {
   font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  color: #0075ff;
+  font-weight: 600;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  padding: 0;
+  color: #0075ff;
+  font-size: 10rem;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo a img {
+  max-width: 7rem;
 }/*# sourceMappingURL=index.css.map */
