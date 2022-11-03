@@ -54,4 +54,31 @@ body {
       color: #888;
     }
   }
+
+  .features{
+    display: flex;
+    gap: 1rem;
+    .text{
+        padding: 2rem 0;
+        max-width: 40%;
+        .feature{
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            .description{
+                margin-left: 1rem;
+                .description-title{
+                    font-size: 1.15rem;
+                }
+                .description-text{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .image{
+        
+    }
+  }
 }

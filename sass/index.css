@@ -54,7 +54,7 @@
   padding: 0.4rem 0.65rem;
   color: #0075ff;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .feature {
@@ -151,4 +151,26 @@ body {
 .sec-features .intro p {
   font-size: 0.8rem;
   color: #888;
+}
+.sec-features .features {
+  display: flex;
+  gap: 1rem;
+}
+.sec-features .features .text {
+  padding: 2rem 0;
+  max-width: 40%;
+}
+.sec-features .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.sec-features .features .text .feature .description {
+  margin-left: 1rem;
+}
+.sec-features .features .text .feature .description .description-title {
+  font-size: 1.15rem;
+}
+.sec-features .features .text .feature .description .description-text {
+  font-size: 1rem;
 }/*# sourceMappingURL=index.css.map */
