@@ -224,4 +224,21 @@ body {
   flex: 1;
   border-top: 2px solid #ddd;
   margin: 0 1rem;
+}
+
+.sec-footer-cta {
+  background-color: #f4f7fe;
+  padding: 5rem;
+  background-image: url("./src/bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.sec-footer-cta .footer-cta {
+  width: 50%;
+}
+.sec-footer-cta .footer-cta .cta-title {
+  font-size: 2rem;
+}
+.sec-footer-cta .footer-cta .cta-description {
+  font-size: 1.1rem;
 }/*# sourceMappingURL=index.css.map */
