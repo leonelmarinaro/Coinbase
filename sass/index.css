@@ -239,7 +239,7 @@ body {
 .sec-footer-cta {
   background-color: #f4f7fe;
   padding: 5rem;
-  background-image: url("/src/bg.png");
+  background-image: url("../src/bg.png");
   background-repeat: no-repeat;
   background-position: 100%;
 }
